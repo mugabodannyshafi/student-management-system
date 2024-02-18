@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------------------- Navigation Bar started Here ----------------------------------- */
+.menu-bar{
+    background-image: linear-gradient(-90deg,#d38312,#a83279);
+   
+}
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: #fff !important;
+    font-weight: 500 !important;
+ 
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 40px;
+    
+}
+.menu-bar .navbar-toggler{
+padding-right: 20px;
+outline: none !important;
+border: none !important;
+
+}
+.navbar .fa-solid{
+    color: #fff !important;
+}
+/* .nav-link:hover{
+    font-weight: 600 !important;
+    border-bottom: 1px solid #fff !important;
+    
+} */
+
+/*-------------------------------- Index Login form started here ----------------------------------- */
+ .btn-primary{
+ background: #4540f7 !important;
+ color: #fff !important;
+  border-color: #4540f7 !important;
+}
+
+
+
+
+

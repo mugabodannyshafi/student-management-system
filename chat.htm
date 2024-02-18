@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: 'poppins',sans-serif;
+            }
+            .container{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            .box{
+                padding: 15px 20px;
+                background-color: rgb(204, 204, 204);
+                width: 500px;
+                height: 600px;
+                border-radius: 6px;
+                box-shadow: #270d0d;
+            }
+             .cht-header{
+                border-bottom: 1px solid #fff;
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+            }
+            .button{
+                position: absolute;
+                top: 80%;
+                text-align: center;
+                justify-content: center;
+            }
+            .cht-input{
+                padding: 15px 20px;
+                border: none;
+                width: 300px;
+                height: 70px;
+                outline: none;
+                font-size: 18px;
+                text-align: center;
+                
+            }
+
+            .cht-btn{
+                padding: 10px;
+                border: none;
+                margin-left: 20px;
+                background-color: #370eee;
+                color: #fff;
+                outline: none;
+            }
+            .message{
+                margin-left: 250px;
+                margin-top: 60px;
+            }
+            .here{
+                padding: 10px 20px;
+                border: none;
+                outline: none;
+                background-color: #370eee;
+                color: #ffffff;
+                border-radius: 20px;
+                height: 60px;
+                width: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="cht-header">
+                    <h3>Chat Room</h3>
+                </div>
+                <div class="message">
+                    <span class="here" value="here">here we
+                    </span></div>
+                <div class="button">
+                    <textarea name="" id="" class="cht-input"
+                        placeholder="Message Here"></textarea>
+                    <button type="submit" class="cht-btn">Send</button>
+                    <button type="reset" class="cht-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
